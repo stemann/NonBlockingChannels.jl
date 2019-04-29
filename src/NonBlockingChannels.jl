@@ -1,0 +1,3 @@
+module NonBlockingChannels
+
+end # module
