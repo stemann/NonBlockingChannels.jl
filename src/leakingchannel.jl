@@ -1,4 +1,5 @@
-import Base: bind, close, fetch, isopen, isready, iterate, popfirst!, push!, put!, take!, wait
+import Base:
+  bind, close, fetch, isopen, isready, iterate, popfirst!, push!, put!, take!, wait
 
 mutable struct LeakingChannel <: AbstractChannel{Any}
   channel::AbstractChannel{Any}
