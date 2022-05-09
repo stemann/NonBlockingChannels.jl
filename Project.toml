@@ -1,7 +1,7 @@
 name = "NonBlockingChannels"
 uuid = "d51a653a-e299-11e8-0b8e-0f2e1cd7eba2"
 authors = ["IHP Systems R&D <research@ihp.dk>"]
-version = "0.1.0"
+version = "0.2.0"
 
 [compat]
 julia = "1"

@@ -1,5 +1,5 @@
 using Test
 
 @testset "NonBlockingChannels" begin
-  include("leakingchanneltest.jl")
+  include("drop_first_non_blocking_on_put_channel_tests.jl")
 end
