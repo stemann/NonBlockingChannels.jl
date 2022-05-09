@@ -1,7 +1,16 @@
 include:
   - project: 'ihp/julia/julia-gitlab-ci-templates'
-    ref: v1.2.0
+    ref: v1.3.0
     file: '/templates.gitlab-ci.yaml'
+  - project: 'ihp/julia/julia-gitlab-ci-templates'
+    ref: v1.3.0
+    file: '/jobs/analyze_package.gitlab-ci.yaml'
+  - project: 'ihp/julia/julia-gitlab-ci-templates'
+    ref: v1.3.0
+    file: '/jobs/analyze_tests.gitlab-ci.yaml'
+  - project: 'ihp/julia/julia-gitlab-ci-templates'
+    ref: v1.3.0
+    file: '/jobs/format.gitlab-ci.yaml'
 
 test:
   stage: test
